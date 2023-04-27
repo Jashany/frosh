@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blitzeria</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <h2 style="text-align: center;padding-top: 2cm;font-size: 2cm;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Blitzeria</h2>
+    <div class="container-fluid form-container">
+        <div class="form-group">
+
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" pattern=".+@thapar\.edu">
+                    <small class="form-text text-muted">Email must be from thapar.edu domain.</small>
+                </div>
+                <div class="form-group">
+                    <label for="number">Number:</label>
+                    <input type="tel" id="number" name="number" required>
+                </div>
+                <div class="form-group">
+                    <label for="rollno">Roll No:</label>
+                    <input type="text" id="rollno" name="rollno" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <div class="image-container"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
